@@ -2,8 +2,21 @@
 <html>
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--5秒后将跳转到登陆页面-->
+
+    <meta http-equiv="refresh" content="5;url=begin_2.html">
+    <script type="text/javascript">
+        var time = 5;
+
+        function Timer() {
+            window.setTimeout('Timer()', 1000);
+            document.getElementById("redirect").innerHTML = time;
+            time = time - 1;
+        }
+    </script>
     <title>欢迎</title>
     <link rel="stylesheet" href="css/begin_1.css">
 </head>
@@ -13,8 +26,8 @@
     <div class="type-js headline">
         <h1 class="text-js">你好，欢迎来到计软迎新~</h1>
     </div>
-    <script src="js/jquery.min.my.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/begin_1.js"></script>
 
 </body>
 

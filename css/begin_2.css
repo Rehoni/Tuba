@@ -20,34 +20,6 @@ html {
     position: relative;
 }
 
-.suggest-l {
-    width: 300px;
-    height: 300px;
-    background: transparent url("https://s.cdpn.io/6859/suggest.png") no-repeat center center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: 200px;
-    margin-top: -200px;
-}
-
-.iphone-l {
-    width: 600px;
-    height: 1061px;
-    margin: 0 auto;
-    margin-top: 50px;
-    background: transparent url("https://s.cdpn.io/6859/iphone.png") no-repeat center center;
-    position: relative;
-}
-
-.iphone-l>.screen-ll {
-    position: absolute;
-    top: 185px;
-    left: 91px;
-    width: 416px;
-    height: 713px;
-    overflow: hidden;
-}
 
 .touch {
     overflow: hidden !important;
@@ -143,47 +115,47 @@ html {
     content: '';
     width: 100px;
     height: 100px;
-    background: transparent url("../src/1_1.jpg") no-repeat center center;
+    background: transparent url("../src/begin_2/1_1.jpg") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .section-b.is-watermellon:after {
-    background: transparent url("../src/1_2.jpg") no-repeat center center;
+    background: transparent url("../src/begin_2/1_2.jpg") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .section-b.is-fish:after {
-    background: transparent url("../src/1_3.jpg") no-repeat center center;
+    background: transparent url("../src/begin_2/1_3.jpg") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .section-b.is-donut:after {
-    background: transparent url("../src/1_4.jpg") no-repeat center center;
+    background: transparent url("../src/begin_2/1_4.jpg") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .section-b.is-icecreame:after {
-    background: transparent url("../src/1_5.jpg") no-repeat center center;
+    background: transparent url("../src/begin_2/1_5.jpg") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .section-b.is-bananas:after {
-    background: transparent url("../src/1_6.png") no-repeat center center;
+    background: transparent url("../src/begin_2/1_6.png") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .section-b.is-drink:after {
-    background: transparent url("../src/1_7.png") no-repeat center center;
+    background: transparent url("../src/begin_2/1_7.png") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .section-b.is-candies:after {
-    background: transparent url("../src/1_8.png") no-repeat center center;
+    background: transparent url("../src/begin_2/1_8.png") no-repeat center center;
     background-size: 100% 100%;
 }
 
 .section-b.is-pizza:after {
-    background: transparent url("../src/1_9.png") no-repeat center center;
+    background: transparent url("../src/begin_2/1_9.png") no-repeat center center;
     background-size: 100% 100%;
 }
 

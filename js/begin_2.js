@@ -1,72 +1,26 @@
-
-
-
-//-----------开始界面-------------------//
-// This is the funtion you need to copy
-// Copy from line 9 to 34
-
-function autoType(elementClass, typingSpeed){
-  var thhis = $(elementClass);
-  thhis.css({
-    "position": "relative",
-    "display": "inline-block"
-  });
-  thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
-  thhis = thhis.find(".text-js");
-  var text = thhis.text().trim().split('');
-  var amntOfChars = text.length;
-  var newString = "";
-  thhis.text("|");
-  setTimeout(function(){
-    thhis.css("opacity",1);
-    thhis.prev().removeAttr("style");
-    thhis.text("");
-    for(var i = 0; i < amntOfChars; i++){
-      (function(i,char){
-        setTimeout(function() {        
-          newString += char;
-          thhis.text(newString);
-        },i*typingSpeed);
-      })(i+1,text[i]);
-    }
-  },1500);
-}
-
-$(document).ready(function(){
-  // Now to start autoTyping just call the autoType function with the 
-  // class of outer div
-  // The second paramter is the speed between each letter is typed.   
-  autoType(".type-js",200);
-
-  
-});
-
-
-
-//===============九个图的特效================//
-paper.install(window);          
-paper.setup('myCanvas1'); 
+paper.install(window);
+paper.setup('myCanvas1');
 
 var SSection, Sections, gui, h, mwheel, onFrame, windowHeight, _base, _ref;
 
-Path.prototype.setWidth = function(width) {
+Path.prototype.setWidth = function (width) {
   this.segments[3].point.x = this.segments[0].point.x + width;
   return this.segments[2].point.x = this.segments[1].point.x + width;
 };
 
-Path.prototype.setHeight = function(height) {
+Path.prototype.setHeight = function (height) {
   this.segments[1].point.y = this.segments[0].point.y + height;
   return this.segments[2].point.y = this.segments[3].point.y + height;
 };
 
-Path.prototype.reset = function() {
+Path.prototype.reset = function () {
   this.setWidth(0);
   this.setHeight(0);
   return this.smooth();
 };
 
 h = {
-  getRand: function(min, max) {
+  getRand: function (min, max) {
     return Math.floor((Math.random() * ((max + 1) - min)) + min);
   }
 };
@@ -106,7 +60,7 @@ window.PaperSections.$content = $("#" + window.PaperSections.data.contentid);
 
 window.PaperSections.$sections = window.PaperSections.$content.children();
 
-window.PaperSections.slice = function(val, max) {
+window.PaperSections.slice = function (val, max) {
   if (val > 0 && val > max) {
     return Math.min(val, max);
   }
@@ -116,7 +70,7 @@ window.PaperSections.slice = function(val, max) {
   return val;
 };
 
-SSection = (function() {
+SSection = (function () {
   function SSection(o) {
     this.o = o;
     this.w = view.size.width;
@@ -133,7 +87,7 @@ SSection = (function() {
     this.listenToStop();
   }
 
-  SSection.prototype.getPrefix = function() {
+  SSection.prototype.getPrefix = function () {
     var pre, styles;
 
     styles = window.getComputedStyle(document.documentElement, "");
@@ -142,15 +96,15 @@ SSection = (function() {
     return this.transformPrefix = "" + this.prefix + "transform";
   };
 
-  SSection.prototype.listenToStop = function() {
+  SSection.prototype.listenToStop = function () {
     var _this = this;
 
-    window.PaperSections.$container.on('scroll', function() {
+    window.PaperSections.$container.on('scroll', function () {
       window.PaperSections.stop = false;
       _this.poped = false;
       return TWEEN.removeAll();
     });
-    return window.PaperSections.$container.on('stopScroll', function() {
+    return window.PaperSections.$container.on('stopScroll', function () {
       var duration;
 
       window.PaperSections.stop = true;
@@ -159,7 +113,7 @@ SSection = (function() {
         point: _this.base.segments[1].handleOut,
         to: 0,
         duration: duration
-      }).then(function() {
+      }).then(function () {
         return window.PaperSections.scrollSpeed = 0;
       });
       return _this.translatePointY({
@@ -170,7 +124,7 @@ SSection = (function() {
     });
   };
 
-  SSection.prototype.translateLine = function(o) {
+  SSection.prototype.translateLine = function (o) {
     var dfr, it, mTW,
       _this = this;
 
@@ -178,25 +132,25 @@ SSection = (function() {
     mTW = new TWEEN.Tween(new Point(o.point)).to(new Point(o.to), o.duration);
     mTW.easing(o.easing || TWEEN.Easing.Elastic.Out);
     it = this;
-    mTW.onUpdate(o.onUpdate || function(a) {
+    mTW.onUpdate(o.onUpdate || function (a) {
       var _ref1;
 
       o.point.y = this.y;
       return (_ref1 = o.point2) != null ? _ref1.y = this.y : void 0;
     });
-    mTW.onComplete(function() {
+    mTW.onComplete(function () {
       return dfr.resolve();
     });
     mTW.start();
     return dfr.promise();
   };
 
-  SSection.prototype.notListenToStop = function() {
+  SSection.prototype.notListenToStop = function () {
     window.PaperSections.$container.off('stopScroll');
     return window.PaperSections.$container.off('scroll');
   };
 
-  SSection.prototype.translatePointY = function(o) {
+  SSection.prototype.translatePointY = function (o) {
     var dfr, it, mTW,
       _this = this;
 
@@ -204,34 +158,34 @@ SSection = (function() {
     mTW = new TWEEN.Tween(new Point(o.point)).to(new Point(o.to), o.duration);
     mTW.easing(o.easing || TWEEN.Easing.Elastic.Out);
     it = this;
-    mTW.onUpdate(o.onUpdate || function(a) {
+    mTW.onUpdate(o.onUpdate || function (a) {
       o.point.y = this.y;
       !it.poped && window.PaperSections.$content.attr('style', "" + it.transformPrefix + ": translate3d(0," + (this.y / 2) + "px,0);transform: translate3d(0," + (this.y / 2) + "px,0);");
       return (it.poped && !it.popedCenter) && window.PaperSections.$sections.eq(it.index).attr('style', "" + it.transformPrefix + ": translate3d(0," + (this.y / 2) + "px,0);transform: translate3d(0," + (this.y / 2) + "px,0);");
     });
-    mTW.onComplete(function() {
+    mTW.onComplete(function () {
       return dfr.resolve();
     });
     mTW.start();
     return dfr.promise();
   };
 
-  SSection.prototype.makeBase = function() {
+  SSection.prototype.makeBase = function () {
     this.base = new Path.Rectangle(new Point(0, this.o.offset), [this.wh, this.o.height]);
     return this.base.fillColor = this.o.color;
   };
 
-  SSection.prototype.toppie = function(amount) {
+  SSection.prototype.toppie = function (amount) {
     this.base.segments[1].handleOut.y = amount;
     return this.base.segments[1].handleOut.x = this.wh / 2;
   };
 
-  SSection.prototype.bottie = function(amount) {
+  SSection.prototype.bottie = function (amount) {
     this.base.segments[3].handleOut.y = amount;
     return this.base.segments[3].handleOut.x = -this.wh / 2;
   };
 
-  SSection.prototype.createPath = function(o) {
+  SSection.prototype.createPath = function (o) {
     var path;
 
     path = new Path(o.points);
@@ -240,7 +194,7 @@ SSection = (function() {
     return path;
   };
 
-  SSection.prototype.update = function() {
+  SSection.prototype.update = function () {
     if (!window.PaperSections.stop && !this.poped) {
       this.toppie(window.PaperSections.scrollSpeed);
       this.bottie(window.PaperSections.scrollSpeed);
@@ -249,11 +203,11 @@ SSection = (function() {
     return TWEEN.update();
   };
 
-  SSection.prototype.procent = function(base, percents) {
+  SSection.prototype.procent = function (base, percents) {
     return (base / 100) * percents;
   };
 
-  SSection.prototype.pop = function() {
+  SSection.prototype.pop = function () {
     var _this = this;
 
     this.poped = true;
@@ -263,11 +217,11 @@ SSection = (function() {
       to: -window.PaperSections.data.sectionheight / 1.75,
       duration: 100,
       easing: TWEEN.Easing.Linear.None
-    }).then(function() {
+    }).then(function () {
       _this.translatePointY({
         point: _this.base.segments[1].handleOut,
         to: 0
-      }).then(function() {});
+      }).then(function () {});
       return _this.translatePointY({
         point: _this.base.segments[3].handleOut,
         to: 0
@@ -281,7 +235,7 @@ SSection = (function() {
     });
   };
 
-  SSection.prototype.popUP = function() {
+  SSection.prototype.popUP = function () {
     var _this = this;
 
     this.poped = true;
@@ -291,11 +245,11 @@ SSection = (function() {
       to: -window.PaperSections.data.sectionheight / 1.75,
       duration: 100,
       easing: TWEEN.Easing.Linear.None
-    }).then(function() {
+    }).then(function () {
       _this.translatePointY({
         point: _this.base.segments[1].handleOut,
         to: 0
-      }).then(function() {});
+      }).then(function () {});
       return _this.translatePointY({
         point: _this.base.segments[3].handleOut,
         to: 0
@@ -309,7 +263,7 @@ SSection = (function() {
     });
   };
 
-  SSection.prototype.popDOWN = function() {
+  SSection.prototype.popDOWN = function () {
     var _this = this;
 
     this.poped = true;
@@ -319,11 +273,11 @@ SSection = (function() {
       to: window.PaperSections.data.sectionheight / 1.75,
       duration: 100,
       easing: TWEEN.Easing.Linear.None
-    }).then(function() {
+    }).then(function () {
       _this.translatePointY({
         point: _this.base.segments[1].handleOut,
         to: 0
-      }).then(function() {});
+      }).then(function () {});
       return _this.translatePointY({
         point: _this.base.segments[3].handleOut,
         to: 0
@@ -341,7 +295,7 @@ SSection = (function() {
 
 })();
 
-Sections = (function() {
+Sections = (function () {
   function Sections() {
     var i, section, _i, _ref1, _ref2;
 
@@ -360,7 +314,7 @@ Sections = (function() {
     $(window).trigger('menu:ready');
   }
 
-  Sections.prototype.update = function() {
+  Sections.prototype.update = function () {
     var i, it, _i, _len, _ref1, _results;
 
     _ref1 = this.contents;
@@ -372,7 +326,7 @@ Sections = (function() {
     return _results;
   };
 
-  Sections.prototype.popSection = function(n) {
+  Sections.prototype.popSection = function (n) {
     var i, _i, _ref1, _results;
 
     TWEEN.removeAll();
@@ -393,7 +347,7 @@ Sections = (function() {
     return _results;
   };
 
-  Sections.prototype.teardown = function() {
+  Sections.prototype.teardown = function () {
     var i, _i, _ref1, _results;
 
     _results = [];
@@ -409,17 +363,17 @@ Sections = (function() {
 
 })();
 
-$(window).on('menu:ready', function(){
-   window.PaperSections.$container.find('.menu-l').addClass('is-loaded')
-}); 
+$(window).on('menu:ready', function () {
+  window.PaperSections.$container.find('.menu-l').addClass('is-loaded')
+});
 
 window.PaperSections.sections = new Sections;
 
-view.onFrame = function(e) {
+view.onFrame = function (e) {
   return window.PaperSections.sections.update();
 };
 
-mwheel = function(e, d) {
+mwheel = function (e, d) {
   var $$, $content;
 
   $content = $('#js-content');
@@ -436,11 +390,11 @@ mwheel = function(e, d) {
 
 window.PaperSections.$container.on('mousewheel', mwheel);
 
-window.PaperSections.scrollControl = function(e, d) {
+window.PaperSections.scrollControl = function (e, d) {
   var direction;
 
   clearTimeout(window.PaperSections.timeOut);
-  window.PaperSections.timeOut = setTimeout(function() {
+  window.PaperSections.timeOut = setTimeout(function () {
     window.PaperSections.i = 0;
     window.PaperSections.$container.trigger('stopScroll');
     return window.PaperSections.prev = window.PaperSections.$container.scrollTop();
@@ -461,15 +415,16 @@ gui = new dat.GUI;
 
 gui.add(window.PaperSections, 'invertScroll');
 
-window.PaperSections.$container.on('mouseenter', '.section-b', function() {
+window.PaperSections.$container.on('mouseenter', '.section-b', function () {
   return window.PaperSections.currSection = $(this).index();
 });
 
-window.PaperSections.$container.on('click', '.section-b', function() {
+window.PaperSections.$container.on('click', '.section-b', function () {
   var $$;
-
-  $$ = $(this);
-  return window.PaperSections.sections.popSection($$.index());
+  $$ = "index.html";
+  // $$ = $(this);
+  //return window.PaperSections.sections.popSection($$.index());
+  window.location.href=$$;
 });
 
 if (window.PaperSections.win || window.PaperSections.ff) {
