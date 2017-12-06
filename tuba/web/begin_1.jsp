@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!--5秒后将跳转到登陆页面-->
 
-    <meta http-equiv="refresh" content="5;url=begin_2.html">
+    <meta http-equiv="refresh" content="5;url=begin_2.jsp">
     <script type="text/javascript">
         var time = 5;
 
