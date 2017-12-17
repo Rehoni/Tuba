@@ -11,10 +11,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="../../static/css/bootstrap.min.my.css">
-    <title>结尾--猝死不是本人担忧的问题日渐脱发才是</title>
+    <title>结尾--长发及腰</title>
     <style type="text/css">
         body {
-            /*background-image: url("../../static/src/begin_2/1_1.jpg");*/
+            background-image: url("../../static/src/result/changfa.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -23,17 +23,17 @@
 </head>
 
 
-<body>
+<body style="text-align: center">
 <div class="container">
-    <div class="jumbotron">
-        <div style="position:fixed;bottom:0;">
-            <h1>你已秃了你已秃了</h1>
-            <br>
-            <p>计软科协计软科协计软科协计软科协${Hair}计软科协计软科协计软青协计软科协计软科协</p>
-            <p>
-                <a class="btn btn-success btn-lg" href="/toEgg" role="button">世界那么大，秃了应该怎么办！</a>
-            </p>
+    <div class="jumbotron" style="padding-top: 460px;padding-left: 70px;margin-bottom: 110px">
+        <div>
+            <h1>${Hair}</h1>
         </div>
+    </div>
+</div>
+<div>
+    <div style="bottom: 0%;position:center;">
+        <a class="btn btn-success btn-lg" href="/toEgg" role="button">世界那么大，秃了应该怎么办！</a>
     </div>
 </div>
 </body>

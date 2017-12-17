@@ -21,11 +21,10 @@
         }
     </style>
 </head>
-
 <body>
 <div class="row">
     <div class="col-sm-6 col-md-4">
-        <div class="caption" style="position:fixed;bottom: 50px;left: 20px;right: 40px;font-size: 20px;">
+        <div class="caption" style="position:fixed;bottom: 50px;left: 20px;right: 40px;font-size: 18px;">
             <div class="alert alert-success" role="alert">
                 <a class="alert-link" onclick="answer(-5)">A:太乱了，晚些好好分析加入适合自己的社团</a>
             </div>

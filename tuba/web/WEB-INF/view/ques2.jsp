@@ -21,7 +21,6 @@
         }
     </style>
 </head>
-
 <body>
 <div class="row">
     <div class="col-sm-6 col-md-4">
