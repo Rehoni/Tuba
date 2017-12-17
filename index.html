@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.my.css">
-    
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
     <title>首页--猝死不是本人担忧的问题日渐脱发才是</title>
     <style type="text/css">
         body {
@@ -24,12 +27,37 @@
                 <h1>你会秃的你会秃的</h1>
                 <br>
                 <p>计软科协计软科协计软科协计软科协计软科协计软科协计软青协计软科协计软科协</p>
-                <p>
-                    <a class="btn btn-primary btn-lg" href="ques.html" role="button">Start</a>
-                </p>
+                <section class="section">
+                    <h3 class="section__title">02</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+                        <defs>
+                            <filter id="filter-goo-2">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                                <feComposite in="SourceGraphic" in2="goo" />
+                            </filter>
+                        </defs>
+                    </svg>
+                    <button id="component-2" class="button button--2" style="filter: url('#filter-goo-2')">
+                        Click me
+                        <span class="button__bg"></span>
+                    </button>
+                </section>
             </div>
         </div>
     </div>
+    <!-- /container -->
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?70da18751e4722c334534546240898a8";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 </body>
 
 </html>

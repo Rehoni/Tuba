@@ -16,7 +16,7 @@
     <title>首页--猝死不是本人担忧的问题日渐脱发才是</title>
     <style type="text/css">
         body {
-            background-image: url("../../static/src/index/background.jpg");
+            background-image: url("../../static/src/index/background_new.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -28,9 +28,9 @@
 <div class="container">
     <div class="jumbotron">
         <div style="position:fixed;bottom:0;">
-            <h1>你会秃的你会秃的</h1>
-            <br>
-            <p>计软科协计软科协计软科协计软科协计软科协计软科协计软青协计软科协计软科协</p>
+            <%--<h1>你会秃的你会秃的</h1>--%>
+            <%--<br>--%>
+            <%--<p>计软科协计软科协计软科协计软科协计软科协计软科协计软青协计软科协计软科协</p>--%>
             <p>
                 <a class="btn btn-primary btn-lg" href="/toQues1" role="button">Start</a>
             </p>
