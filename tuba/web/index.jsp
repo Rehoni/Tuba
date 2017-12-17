@@ -2,40 +2,39 @@
   Created by IntelliJ IDEA.
   User: 39409
   Date: 2017/12/6
-  Time: 21:53
+  Time: 17:37
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.my.css">
+    <!--5秒后将跳转到登陆页面-->
 
-    <title>首页--猝死不是本人担忧的问题日渐脱发才是</title>
-    <style type="text/css">
-        body {
-            background-image: url("src/index/background.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
+    <meta http-equiv="refresh" content="5;url=toBegin">
+    <script type="text/javascript">
+        var time = 5;
+
+        function Timer() {
+            window.setTimeout('Timer()', 1000);
+            document.getElementById("redirect").innerHTML = time;
+            time = time - 1;
         }
-    </style>
+    </script>
+    <title>欢迎</title>
+    <link rel="stylesheet" href="./static/css/begin_1.css">
 </head>
 
 <body>
-<div class="container">
-    <div class="jumbotron">
-        <div style="position:fixed;bottom:0;">
-            <h1>你会秃的你会秃的</h1>
-            <br>
-            <p>计软科协计软科协计软科协计软科协计软科协计软科协计软青协计软科协计软科协</p>
-            <p>
-                <a class="btn btn-primary btn-lg" href="ques.html" role="button">Start</a>
-            </p>
-        </div>
-    </div>
+
+<div class="type-js headline">
+    <h1 class="text-js">你好，欢迎来到计软迎新~</h1>
 </div>
+<script src="./static/js/jquery.min.js"></script>
+<script src="./static/js/begin_1.js"></script>
+
 </body>
 </html>

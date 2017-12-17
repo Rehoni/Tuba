@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>猝死不是当代青少年担忧的问题日渐脱发才是</title>
-    <link rel="stylesheet" href="css/begin_2.css">
+    <link rel="stylesheet" href="../../static/css/begin_2.css">
 </head>
 
 <body>
@@ -37,12 +37,12 @@
         </div>
     </div>
 </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/tween.min.js"></script>
-<script src="js/jquery.mousewheel.min.js"></script>
-<script src="js/dat.gui.min.js"></script>
-<script src="js/paper.js"></script>
-<script src="js/begin_2.js"></script>
+<script src="../../static/js/jquery.min.js"></script>
+<script src="../../static/js/tween.min.js"></script>
+<script src="../../static/js/jquery.mousewheel.min.js"></script>
+<script src="../../static/js/dat.gui.min.js"></script>
+<script src="../../static/js/paper.js"></script>
+<script src="../../static/js/begin_2.js"></script>
 
 </body>
 

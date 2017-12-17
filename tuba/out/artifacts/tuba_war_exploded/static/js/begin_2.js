@@ -421,7 +421,7 @@ window.PaperSections.$container.on('mouseenter', '.section-b', function () {
 
 window.PaperSections.$container.on('click', '.section-b', function () {
   var $$;
-  $$ = "index.html";
+  $$ = "/toMain";
   // $$ = $(this);
   //return window.PaperSections.sections.popSection($$.index());
   window.location.href=$$;

@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.my.css">
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.my.css">
     <title>彩蛋--猝死不是本人担忧的问题日渐脱发才是</title>
 </head>
 
@@ -18,7 +18,7 @@
 <div class="row">
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-            <img src="src/egg/egg.jpg" alt="index">
+            <img src="../../static/src/egg/egg.jpg" alt="index">
             <div class="caption">
                 <h3>找图真的辣眼睛啊</h3>
                 <p>这一天，当你漫步于校园中时，横空出现了一架UFO将你抓走，外星人对你的身体进行了精密的分析，发现你的头发有（结果）根。 他们给了你几个选项，帮你增加未来的头发数量:</p>
