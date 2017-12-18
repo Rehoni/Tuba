@@ -24,18 +24,18 @@
 <body>
 <div class="row">
     <div class="col-sm-6 col-md-4">
-        <div class="caption" style="position:fixed;bottom: 5%;left: 7% ;right: 10%;font-size: 12px;">
+        <div class="caption" style="position:fixed;bottom: 5%;left: 5% ;right: 10%;font-size: 13px;">
             <div class="alert alert-success" role="alert">
-                <a class="alert-link" onclick="answer(-10)">A:加入了为学生服务的院级服务组织（如院科协，院青协，院学生会）</a>
+                <a class="alert-link" onclick="answer(-10)">A:加入了为学生服务的院级服务组织</a>
             </div>
             <div class="alert alert-info" role="alert">
-                <a class="alert-link" onclick="answer(-5)">B:加入了想着搞事情的校级服务组织（如校科协，学团联）</a>
+                <a class="alert-link" onclick="answer(-5)">B:加入了想着搞事情的校级服务组织</a>
             </div>
             <div class="alert alert-warning" role="alert">
-                <a class="alert-link" onclick="answer(+5)">C:加入了可以放飞自我的兴趣社团（如魔术社，话剧团）</a>
+                <a class="alert-link" onclick="answer(+5)">C:加入了可以放飞自我的兴趣社团</a>
             </div>
             <div class="alert alert-danger" role="alert">
-                <a class="alert-link" onclick="answer(+10)">D:什么都没报，回寝社就是可以为所欲为的</a>
+                <a class="alert-link" onclick="answer(+10)">D:什么都没去，回寝室就是可以为所欲为的</a>
             </div>
         </div>
     </div>
