@@ -11,6 +11,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
     <link rel="stylesheet" href="../../static/css/bootstrap.min.my.css">
+
+    <meta name="description" content="A set of inspirational distorted button effects using SVG filters"/>
+    <meta name="keywords" content="distorted, effect, button, svg, inspiration, filter, web design"/>
+    <link rel="stylesheet" type="text/css" href="../../static/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../../static/css/main.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
     <title>问题1</title>
     <style type="text/css">
         body {
@@ -25,15 +32,94 @@
 <div class="row">
     <div class="col-sm-6 col-md-4">
         <div class="caption" style="position:fixed;bottom: 5%;left: 5% ;right: 10%;font-size: 18px;">
-            <div class="alert alert-success" role="alert">
-                <a class="alert-link" onclick="answer(5)">A:妹子~</a>
+            <div>
+                <section class="section">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+                        <defs>
+                            <filter id="filter-goo-1">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+                                <feColorMatrix in="blur" mode="matrix"
+                                               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                               result="goo"/>
+                                <feComposite in="SourceGraphic" in2="goo"/>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <button id="component-1" class="button button--1"  onclick="answer(5)">
+                        A:妹子~
+                        <span class="button__container">
+									<span class="circle top-left"></span>
+									<span class="circle top-left"></span>
+									<span class="circle top-left"></span>
+									<span class="button__bg"></span>
+									<span class="circle bottom-right"></span>
+									<span class="circle bottom-right"></span>
+									<span class="circle bottom-right"></span>
+								</span>
+                    </button>
+                </section>
             </div>
-            <div class="alert alert-info" role="alert" >
-                <a class="alert-link" onclick="answer(1)">B:汉子！</a>
+            <div>
+                <section class="section">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+                        <defs>
+                            <filter id="filter-goo-2">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+                                <feColorMatrix in="blur" mode="matrix"
+                                               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"/>
+                                <feComposite in="SourceGraphic" in2="goo"/>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <button id="component-2" class="button button--1"  onclick="answer(1)">
+                        B:汉子！
+                        <span class="button__container">
+									<span class="circle top-left"></span>
+									<span class="circle top-left"></span>
+									<span class="circle top-left"></span>
+									<span class="button__bg"></span>
+									<span class="circle bottom-right"></span>
+									<span class="circle bottom-right"></span>
+									<span class="circle bottom-right"></span>
+								</span>
+                    </button>
+                </section>
             </div>
-            <div class="alert alert-warning" role="alert">
-                <a class="alert-link" onclick="answer(7)">C:???</a>
+            <div>
+                <section class="section">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+                        <defs>
+                            <filter id="filter-goo-3">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+                                <feColorMatrix in="blur" mode="matrix"
+                                               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"/>
+                                <feComposite in="SourceGraphic" in2="goo"/>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <button id="component-3" class="button button--1" onclick="answer(7)">
+                        c:???
+                        <span class="button__container">
+									<span class="circle top-left"></span>
+									<span class="circle top-left"></span>
+									<span class="circle top-left"></span>
+									<span class="button__bg"></span>
+									<span class="circle bottom-right"></span>
+									<span class="circle bottom-right"></span>
+									<span class="circle bottom-right"></span>
+								</span>
+                    </button>
+                </section>
             </div>
+            <%--<div class="alert alert-success" role="alert">--%>
+            <%--<a class="alert-link" onclick="answer(5)">A:妹子~</a>--%>
+            <%--</div>--%>
+            <%--<div class="alert alert-info" role="alert">--%>
+                <%--<a class="alert-link" onclick="answer(1)">B:汉子！</a>--%>
+            <%--</div>--%>
+            <%--<div class="alert alert-warning" role="alert">--%>
+                <%--<a class="alert-link" onclick="answer(7)">C:???</a>--%>
+            <%--</div>--%>
         </div>
     </div>
 </div>
@@ -41,5 +127,18 @@
     <input id="jumpFormInput" name="HairCut" value="" style="display: none">
 </form>
 <script src="../../static/js/Ques.js"></script>
+<!-- /container -->
+<script src="../../static/js/TweenMax.min.js"></script>
+<script src="../../static/js/main.js"></script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?70da18751e4722c334534546240898a8";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 </body>
 </html>

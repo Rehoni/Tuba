@@ -19,13 +19,13 @@ Array.prototype.slice.call(document.querySelectorAll('.button'), 0).forEach(func
 initBt1();
 initBt2();
 initBt3();
-initBt4();
-initBt5();
-initBt6();
-initBt7();
-initBt8();
-initBt9();
-initBt10();
+// initBt4();
+// initBt5();
+// initBt6();
+// initBt7();
+// initBt8();
+// initBt9();
+// initBt10();
 
 // Button 1
 function initBt1() {

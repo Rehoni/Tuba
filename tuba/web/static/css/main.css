@@ -290,10 +290,10 @@ a:focus {
 }
 
 .section {
-    min-height: 400px;
+    min-height: 50px;
     width: calc(50% - 20vw);
-    min-width: 300px;
-    height: 50vh;
+    min-width: 400px;
+    height: 60px;
     margin: 0 10vw;
     display: -webkit-box;
     display: -moz-box;
@@ -397,18 +397,19 @@ h5 {
 .button--8,
 .button--9,
 .button--10 {
+    width: 70%;
     -webkit-font-smoothing: antialiased;
     background-color: #222;
     border: none;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.85em;
+    font-family: 'Dengxian', sans-serif;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
     user-select: none;
     letter-spacing: 0.1em;
     color: white;
-    padding: 20px 40px;
+    padding: 10px 20px;
     text-transform: uppercase;
     -webkit-transition: background-color 0.1s ease-out;
     -moz-transition: background-color 0.1s ease-out;
