@@ -15,7 +15,7 @@
     <style type="text/css">
         body {
             background-image: url("../../static/src/end.jpg");
-            background-size: cover;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -25,7 +25,7 @@
 <body>
 <div class="row">
     <div class="col-sm-6 col-md-4">
-        <div class="caption" style="position:fixed;bottom: 50px;left: 20px;right: 40px;font-size: 17px;">
+        <div class="caption" style="position:fixed;bottom: 3%;left: 6% ;right: 10%;font-size: 14px;">
             <div class="alert alert-success" role="alert">
                 <a href="#" class="alert-link">A:去看计软迎新晚会，更新你的头发数</a>
             </div>

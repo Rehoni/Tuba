@@ -15,7 +15,7 @@
     <style type="text/css">
         body {
             background-image: url("../../static/src/ques/ques6.jpg");
-            background-size: cover;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -24,7 +24,7 @@
 <body>
 <div class="row">
     <div class="col-sm-6 col-md-4">
-        <div class="caption" style="position:fixed;bottom: 30px;left: 20px;right: 40px;font-size: 14px;">
+        <div class="caption" style="position:fixed;bottom: 5%;left: 7% ;right: 10%;font-size: 12px;">
             <div class="alert alert-success" role="alert">
                 <a class="alert-link" onclick="answer(-10)">A:加入了为学生服务的院级服务组织（如院科协，院青协，院学生会）</a>
             </div>

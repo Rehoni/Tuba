@@ -15,7 +15,7 @@
     <style type="text/css">
         body {
             background-image: url("../../static/src/ques/ques7.jpg");
-            background-size: cover;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -24,7 +24,7 @@
 <body>
 <div class="row">
     <div class="col-sm-6 col-md-4">
-        <div class="caption" style="position:fixed;bottom: 50px;left: 20px;right: 40px;font-size: 18px;">
+        <div class="caption" style="position:fixed;bottom: 3%;left: 6% ;right: 10%;font-size: 16px;">
             <div class="alert alert-success" role="alert">
                 <a class="alert-link" onclick="answer(+5)">A:尽力思考，实在不会就请教老师或其他大佬</a>
             </div>

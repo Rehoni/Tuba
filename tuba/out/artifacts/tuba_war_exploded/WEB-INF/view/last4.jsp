@@ -15,7 +15,7 @@
     <style type="text/css">
         body {
             background-image: url("../../static/src/result/dizhonghai.jpg");
-            background-size: cover;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -25,13 +25,13 @@
 
 <body style="text-align: center">
 <div class="container">
-    <div class="jumbotron" style="padding-top: 460px;padding-left: 70px;">
-        <div>
-            <h1>${Hair}</h1>
-        </div>
-        <div style="bottom: 0;">
-            <a class="btn btn-success btn-lg" href="/toEgg" role="button">世界那么大，秃了应该怎么办！</a>
-        </div>
+    <div style="margin-top: 110%;margin-bottom: 30%;margin-left: 20%">
+        <h1>${Hair}</h1>
+    </div>
+</div>
+<div>
+    <div style="position:fixed;bottom: 4%;left: 12%;">
+        <a class="btn btn-success btn-lg" href="/toEgg" role="button">世界那么大，秃了应该怎么办！</a>
     </div>
 </div>
 </body>

@@ -108,15 +108,15 @@ public class PageController {
     public ModelAndView JumpToLast(HttpServletRequest request, HttpSession session) {
         ModelAndView mav = new ModelAndView();
         float hairNumber = ((Hair) session.getAttribute("Hair")).getHairNum();
-        if (70<hairNumber){
+        if (90<hairNumber){
             mav.setViewName("last");
-        }else if (50<hairNumber&&hairNumber<=70){
+        }else if (70<hairNumber&&hairNumber<=90){
             mav.setViewName("last2");
-        }else if (30<hairNumber&&hairNumber<=50){
+        }else if (40<hairNumber&&hairNumber<=70){
             mav.setViewName("last3");
-        }else if (0<hairNumber&&hairNumber<=30){
+        }else if (10<hairNumber&&hairNumber<=40){
             mav.setViewName("last4");
-        }else if (hairNumber<=0){
+        }else if (hairNumber<=10){
             mav.setViewName("last5");
         }
         mav.addObject("Hair",((Hair) session.getAttribute("Hair")).getHairNum());

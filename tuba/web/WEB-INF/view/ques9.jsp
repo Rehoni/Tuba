@@ -15,7 +15,7 @@
     <style type="text/css">
         body {
             background-image: url("../../static/src/ques/ques9.jpg");
-            background-size: cover;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -24,7 +24,7 @@
 <body>
 <div class="row">
     <div class="col-sm-6 col-md-4">
-        <div class="caption" style="position:fixed;bottom: 50px;left: 20px;right: 40px;font-size: 18px;">
+        <div class="caption" style="position:fixed;bottom: 3%;left: 6% ;right: 10%;font-size: 14px;">
             <div class="alert alert-success" role="alert">
                 <a class="alert-link" onclick="answer(+10)">A:马上扔进购物车</a>
             </div>

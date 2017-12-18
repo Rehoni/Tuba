@@ -413,7 +413,7 @@ window.PaperSections.$container.scroll(window.PaperSections.scrollControl);
 
 gui = new dat.GUI;
 
-gui.add(window.PaperSections, 'invertScroll');
+//gui.add(window.PaperSections, 'invertScroll');
 
 window.PaperSections.$container.on('mouseenter', '.section-b', function () {
   return window.PaperSections.currSection = $(this).index();
