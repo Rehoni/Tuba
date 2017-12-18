@@ -31,23 +31,22 @@
 <body>
 <div class="row">
     <div class="col-sm-6 col-md-4">
-        <div class="caption" style="position:fixed;bottom: 5%;left: 5% ;right: 10%;font-size: 18px;">
+        <div class="caption" style="position:fixed;bottom: 5%;left: 5% ;right: 15%;font-size: 18px;">
             <div>
-                <section class="section">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-                        <defs>
-                            <filter id="filter-goo-1">
-                                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
-                                <feColorMatrix in="blur" mode="matrix"
-                                               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                                               result="goo"/>
-                                <feComposite in="SourceGraphic" in2="goo"/>
-                            </filter>
-                        </defs>
-                    </svg>
-                    <button id="component-1" class="button button--1"  onclick="answer(5)">
-                        A:妹子~
-                        <span class="button__container">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+                    <defs>
+                        <filter id="filter-goo-1">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+                            <feColorMatrix in="blur" mode="matrix"
+                                           values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                           result="goo"/>
+                            <feComposite in="SourceGraphic" in2="goo"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <button id="component-1" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
+                    A:妹子~<input id="scoreA" style="display: none;" value="5">
+                    <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -56,24 +55,22 @@
 									<span class="circle bottom-right"></span>
 									<span class="circle bottom-right"></span>
 								</span>
-                    </button>
-                </section>
+                </button>
             </div>
             <div>
-                <section class="section">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-                        <defs>
-                            <filter id="filter-goo-2">
-                                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
-                                <feColorMatrix in="blur" mode="matrix"
-                                               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"/>
-                                <feComposite in="SourceGraphic" in2="goo"/>
-                            </filter>
-                        </defs>
-                    </svg>
-                    <button id="component-2" class="button button--1"  onclick="answer(1)">
-                        B:汉子！
-                        <span class="button__container">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+                    <defs>
+                        <filter id="filter-goo-2">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+                            <feColorMatrix in="blur" mode="matrix"
+                                           values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"/>
+                            <feComposite in="SourceGraphic" in2="goo"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <button id="component-2" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
+                    B:汉子！<input id="scoreB" style="display: none;" value="3">
+                    <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -82,24 +79,22 @@
 									<span class="circle bottom-right"></span>
 									<span class="circle bottom-right"></span>
 								</span>
-                    </button>
-                </section>
+                </button>
             </div>
             <div>
-                <section class="section">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-                        <defs>
-                            <filter id="filter-goo-3">
-                                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
-                                <feColorMatrix in="blur" mode="matrix"
-                                               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"/>
-                                <feComposite in="SourceGraphic" in2="goo"/>
-                            </filter>
-                        </defs>
-                    </svg>
-                    <button id="component-3" class="button button--1" onclick="answer(7)">
-                        c:???
-                        <span class="button__container">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+                    <defs>
+                        <filter id="filter-goo-3">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+                            <feColorMatrix in="blur" mode="matrix"
+                                           values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"/>
+                            <feComposite in="SourceGraphic" in2="goo"/>
+                        </filter>
+                    </defs>
+                </svg>
+                <button id="component-3" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
+                    c:???<input id="scoreC" style="display: none;" value="10">
+                    <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -108,25 +103,16 @@
 									<span class="circle bottom-right"></span>
 									<span class="circle bottom-right"></span>
 								</span>
-                    </button>
-                </section>
+                </button>
             </div>
-            <%--<div class="alert alert-success" role="alert">--%>
-            <%--<a class="alert-link" onclick="answer(5)">A:妹子~</a>--%>
-            <%--</div>--%>
-            <%--<div class="alert alert-info" role="alert">--%>
-                <%--<a class="alert-link" onclick="answer(1)">B:汉子！</a>--%>
-            <%--</div>--%>
-            <%--<div class="alert alert-warning" role="alert">--%>
-                <%--<a class="alert-link" onclick="answer(7)">C:???</a>--%>
-            <%--</div>--%>
         </div>
     </div>
 </div>
+<%--获取头发和跳转action--%>
 <form action="/toQues2" id="jumpForm">
     <input id="jumpFormInput" name="HairCut" value="" style="display: none">
 </form>
-<script src="../../static/js/Ques.js"></script>
+
 <!-- /container -->
 <script src="../../static/js/TweenMax.min.js"></script>
 <script src="../../static/js/main.js"></script>
