@@ -22,6 +22,14 @@
 
 真的糟心<br/>
 
+## 12月19算是大功告成吧！
+
+开心！<br/>
+
+关于button的特效:挺好看的~<br/>
+
+[Distorted Button Effects](http://www.html5think.com/demos/html5think-distorted-button-effects/)
+
 ## 几个地方——制作后
 
 1. begin_2(素质九连)需要去掉工具栏<br/>
