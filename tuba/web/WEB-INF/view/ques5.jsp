@@ -10,18 +10,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
-    <link rel="stylesheet" href="../../static/css/bootstrap.min.my.css">
+    <link rel="stylesheet" href="/tuba_war/static/css/bootstrap.min.my.css">
 
     <meta name="description" content="A set of inspirational distorted button effects using SVG filters"/>
     <meta name="keywords" content="distorted, effect, button, svg, inspiration, filter, web design"/>
-    <link rel="stylesheet" type="text/css" href="../../static/css/normalize.css"/>
-    <link rel="stylesheet" type="text/css" href="../../static/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/tuba_war/static/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="/tuba_war/static/css/main.css"/>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
     <title>问题5</title>
     <style type="text/css">
         body {
-            background-image: url("../../static/src/ques/ques5.jpg");
+            background-image: url("/tuba_war/static/src/ques/ques5.jpg");
             background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
@@ -108,13 +108,13 @@
         </div>
     </div>
 </div>
-<form action="/toQues6" id="jumpForm">
+<form action="/tuba_war/toQues6" id="jumpForm">
     <input id="jumpFormInput" name="HairCut" value="" style="display: none">
 </form>
 
 <!-- /container -->
-<script src="../../static/js/TweenMax.min.js"></script>
-<script src="../../static/js/main.js"></script>
+<script src="/tuba_war/static/js/TweenMax.min.js"></script>
+<script src="/tuba_war/static/js/main.js"></script>
 
 <script>
     var _hmt = _hmt || [];

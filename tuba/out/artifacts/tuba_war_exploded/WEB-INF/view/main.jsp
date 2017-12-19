@@ -11,20 +11,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="../../static/css/bootstrap.min.my.css">
+    <link rel="stylesheet" href="/tuba_war/static/css/bootstrap.min.my.css">
 
     <title>首页--猝死不是本人担忧的问题日渐脱发才是</title>
 
     <meta name="description" content="A set of inspirational distorted button effects using SVG filters"/>
     <meta name="keywords" content="distorted, effect, button, svg, inspiration, filter, web design"/>
-    <link rel="stylesheet" type="text/css" href="../../static/css/normalize.css"/>
-    <link rel="stylesheet" type="text/css" href="../../static/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/tuba_war/static/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="/tuba_war/static/css/main.css"/>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 
     <style type="text/css">
         body {
-            background-image: url("../../static/src/index/background_new.jpg");
+            background-image: url("/tuba_war/static/src/index/background_new.jpg");
             background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
@@ -61,8 +61,8 @@
 </div>
 
 <!-- /container -->
-<script src="../../static/js/TweenMax.min.js"></script>
-<script src="../../static/js/start.js"></script>
+<script src="/tuba_war/static/js/TweenMax.min.js"></script>
+<script src="/tuba_war/static/js/start.js"></script>
 
 <script>
     var _hmt = _hmt || [];

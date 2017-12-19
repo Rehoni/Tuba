@@ -10,18 +10,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
-    <link rel="stylesheet" href="../../static/css/bootstrap.min.my.css">
+    <link rel="stylesheet" href="/tuba_war/static/css/bootstrap.min.my.css">
 
     <meta name="description" content="A set of inspirational distorted button effects using SVG filters"/>
     <meta name="keywords" content="distorted, effect, button, svg, inspiration, filter, web design"/>
-    <link rel="stylesheet" type="text/css" href="../../static/css/normalize.css"/>
-    <link rel="stylesheet" type="text/css" href="../../static/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/tuba_war/static/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="/tuba_war/static/css/main.css"/>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
     <title>问题7</title>
     <style type="text/css">
         body {
-            background-image: url("../../static/src/ques/ques7.jpg");
+            background-image: url("/tuba_war/static/src/ques/ques7.jpg");
             background-size: 100% 100%;
             background-repeat: no-repeat;
             background-position: center;
@@ -45,7 +45,7 @@
                     </defs>
                 </svg>
                 <button id="component-1" class="button button--1" style="font-size: 14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    A:尽力思考，实在不会就请教老师或其他大佬<input id="scoreA" style="display: none;" value="5">
+                    A:尽力思考，实在不会就请教老师或其他大佬<input id="scoreA" style="display: none;" value="-5">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -93,7 +93,7 @@
                     </defs>
                 </svg>
                 <button id="component-3" class="button button--1" style="font-size: 14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    C:不会写就放弃，我神经比较粗壮<input id="scoreC" style="display: none;" value="10">
+                    C:不会写就放弃，我神经比较粗壮<input id="scoreC" style="display: none;" value="5">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -108,13 +108,13 @@
         </div>
     </div>
 </div>
-<form action="/toQues8" id="jumpForm">
+<form action="/tuba_war/toQues8" id="jumpForm">
     <input id="jumpFormInput" name="HairCut" value="" style="display: none">
 </form>
 
 <!-- /container -->
-<script src="../../static/js/TweenMax.min.js"></script>
-<script src="../../static/js/main.js"></script>
+<script src="/tuba_war/static/js/TweenMax.min.js"></script>
+<script src="/tuba_war/static/js/main.js"></script>
 
 <script>
     var _hmt = _hmt || [];

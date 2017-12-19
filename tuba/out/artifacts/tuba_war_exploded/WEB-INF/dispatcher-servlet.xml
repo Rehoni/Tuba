@@ -15,9 +15,9 @@
     <!--注解驱动配置-->
     <mvc:annotation-driven />
     <mvc:default-servlet-handler/>
-    <mvc:resources location="/static/js/" mapping="/static/js/**" />
-    <mvc:resources location="/static/css/" mapping="/static/css/**" />
-    <mvc:resources location="/static/src/" mapping="/static/src/**" />
+    <mvc:resources location="/static/js/" mapping="tuba_war/static/js/**" />
+    <mvc:resources location="/static/css/" mapping="tuba_war/static/css/**" />
+    <mvc:resources location="/static/src/" mapping="tuba_war/static/src/**" />
     <!--视图解析器-->
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
