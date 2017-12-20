@@ -76,6 +76,6 @@ function initLast() {
     bt1.addEventListener('click', function() {
         bt1c.style.filter = 'url(#filter-goo-last)';
         btTl.restart();
-        window.setTimeout('window.location.href = \'/toEgg\'',2000);
+        window.setTimeout('window.location.href = \'/toEgg\'',1500);
     });
 }

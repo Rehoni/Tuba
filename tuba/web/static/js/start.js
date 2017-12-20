@@ -75,6 +75,6 @@ function initStart() {
     bt1.addEventListener('click', function() {
         bt1c.style.filter = 'url(#filter-goo-start)';
         btTl.restart();
-        window.setTimeout('window.location.href = \'/toQues1\'',2000);
+        window.setTimeout('window.location.href = \'/toQues1\'',1500);
     });
 }
