@@ -45,7 +45,7 @@
                     </defs>
                 </svg>
                 <button id="component-1" class="button button--1" style="font-size:14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    A:太乱了，晚些好好分析适合自己的社团<input id="scoreA" style="display: none;" value="-5">
+                    A:太乱了，晚些好好分析适合自己的社团<input id="scoreA" style="display: none;" value="-13">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -69,7 +69,7 @@
                     </defs>
                 </svg>
                 <button id="component-2" class="button button--1" style="font-size:14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    B:这个我想去!那个我也想去！啊！！！<input id="scoreB" style="display: none;" value="-10">
+                    B:这个我想去!那个我也想去！啊！！！<input id="scoreB" style="display: none;" value="-7">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>

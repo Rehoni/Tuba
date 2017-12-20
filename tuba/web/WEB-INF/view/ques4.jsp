@@ -45,7 +45,7 @@
                     </defs>
                 </svg>
                 <button id="component-1" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    A:撑着油纸伞<input id="scoreA" style="display: none;" value="10">
+                    A:撑着油纸伞<input id="scoreA" style="display: none;" value="7">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -69,7 +69,7 @@
                     </defs>
                 </svg>
                 <button id="component-2" class="button button--1"style="width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    B:戴着原谅帽<input id="scoreB" style="display: none;" value="5">
+                    B:戴着原谅帽<input id="scoreB" style="display: none;" value="3">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>

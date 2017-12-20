@@ -45,7 +45,7 @@
                     </defs>
                 </svg>
                 <button id="component-1" class="button button--1" style="font-size: 14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    A:转过身去二话不说开始殴打对方<input id="scoreA" style="display: none;" value="5">
+                    A:转过身去二话不说开始殴打对方<input id="scoreA" style="display: none;" value="3">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -69,7 +69,7 @@
                     </defs>
                 </svg>
                 <button id="component-2" class="button button--1"style="font-size: 14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    B:这个人是不是对我有意思，回头妩媚一笑<input id="scoreB" style="display: none;" value="-5">
+                    B:这个人是不是对我有意思，回头妩媚一笑<input id="scoreB" style="display: none;" value="-7">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -93,7 +93,7 @@
                     </defs>
                 </svg>
                 <button id="component-3" class="button button--1"style="font-size: 14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    C:我要吃饭，我要吃饭，我要吃饭<input id="scoreC" style="display: none;" value="10">
+                    C:我要吃饭，我要吃饭，我要吃饭<input id="scoreC" style="display: none;" value="8">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
