@@ -117,7 +117,7 @@
                     </defs>
                 </svg>
                 <button id="component-4" class="button button--1"style="font-size:14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    D:都不去，回寝室就是可以为所欲为的<input id="scoreD" style="display: none;" value="5">
+                    D:都不去，回寝室就是可以为所欲为的<input id="scoreD" style="display: none;" value="9">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>

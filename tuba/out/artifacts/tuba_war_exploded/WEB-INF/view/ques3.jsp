@@ -69,7 +69,7 @@
                     </defs>
                 </svg>
                 <button id="component-2" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    B:咬咬笔||摇摇笔<input id="scoreB" style="display: none;" value="-3">
+                    B:咬咬笔||摇摇笔<input id="scoreB" style="display: none;" value="3">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -93,7 +93,7 @@
                     </defs>
                 </svg>
                 <button id="component-3" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    C:瞟了周围童鞋们的卷子<input id="scoreC" style="display: none;" value="3">
+                    C:瞟了周围童鞋们的卷子<input id="scoreC" style="display: none;" value="7">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>

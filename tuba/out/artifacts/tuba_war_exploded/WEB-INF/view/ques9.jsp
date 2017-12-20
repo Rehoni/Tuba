@@ -45,7 +45,7 @@
                     </defs>
                 </svg>
                 <button id="component-1" class="button button--1" style="font-size:14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    A:马上扔进购物车<input id="scoreA" style="display: none;" value="5">
+                    A:马上扔进购物车<input id="scoreA" style="display: none;" value="6">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -69,7 +69,7 @@
                     </defs>
                 </svg>
                 <button id="component-2" class="button button--1"style="font-size: 14px;width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    B:可能以后要用到，买了再说<input id="scoreB" style="display: none;" value="-5">
+                    B:可能以后要用到，买了再说<input id="scoreB" style="display: none;" value="-9">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
