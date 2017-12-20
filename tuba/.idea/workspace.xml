@@ -6,22 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30040470-5f75-423e-9cde-c7e876e6f0ff" name="Default" comment="题目分数的修改和结果分界">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/controller/PageController.java" afterPath="$PROJECT_DIR$/src/controller/PageController.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/ques1.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/ques1.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/ques2.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/ques2.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/ques3.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/ques3.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/ques4.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/ques4.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/ques5.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/ques5.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/ques6.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/ques6.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/ques7.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/ques7.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/ques9.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/ques9.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/egg.js" afterPath="$PROJECT_DIR$/web/static/js/egg.js" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/last.js" afterPath="$PROJECT_DIR$/web/static/js/last.js" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/main.js" afterPath="$PROJECT_DIR$/web/static/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/start.js" afterPath="$PROJECT_DIR$/web/static/js/start.js" />
-    </list>
+    <list default="true" id="30040470-5f75-423e-9cde-c7e876e6f0ff" name="Default" comment="题目分数的修改和结果分界" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -574,12 +559,12 @@
       <workItem from="1513679394671" duration="11625000" />
       <workItem from="1513761830110" duration="150000" />
       <workItem from="1513763272328" duration="204000" />
-      <workItem from="1513765238981" duration="777000" />
+      <workItem from="1513765238981" duration="820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73156000" />
+    <option name="totallyTimeSpent" value="73199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
