@@ -65,7 +65,7 @@ function initBt1() {
     bt1.addEventListener('click', function () {
         bt1c.style.filter = 'url(#filter-goo-1)';
         btTl.restart();
-        window.setTimeout('window.location.href = \'/tuba_war/toMain\'',2000);
+        window.setTimeout('window.location.href = \'/tuba_war/toMain\'',1500);
     });
 }
 
@@ -131,7 +131,7 @@ function initBt2() {
     bt1.addEventListener('click', function () {
         bt1c.style.filter = 'url(#filter-goo-2)';
         btTl.restart();
-        window.setTimeout('window.location.href = \'/tuba_war/toMain\'',2000);
+        window.setTimeout('window.location.href = \'/tuba_war/toMain\'',1500);
     });
 }
 
@@ -196,6 +196,6 @@ function initBt3() {
     bt1.addEventListener('click', function () {
         bt1c.style.filter = 'url(#filter-goo-3)';
         btTl.restart();
-        window.setTimeout('window.location.href = \'/tuba_war/toMain\'',2000);
+        window.setTimeout('window.location.href = \'/tuba_war/toMain\'',1500);
     });
 }

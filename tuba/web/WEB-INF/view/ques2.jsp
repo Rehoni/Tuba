@@ -45,7 +45,7 @@
                     </defs>
                 </svg>
                 <button id="component-1" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    A:计软网安~<input id="scoreA" style="display: none;" value="-10">
+                    A:计软网安~<input id="scoreA" style="display: none;" value="-13">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>
@@ -69,7 +69,7 @@
                     </defs>
                 </svg>
                 <button id="component-2" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    B:其他理工科<input id="scoreB" style="display: none;" value="-7">
+                    B:其他理工科<input id="scoreB" style="display: none;" value="-8">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>

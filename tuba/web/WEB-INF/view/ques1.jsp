@@ -93,7 +93,7 @@
                     </defs>
                 </svg>
                 <button id="component-3" class="button button--1" style="width:100%;padding: 15px 20px;margin: 10px 10px;">
-                    c:???<input id="scoreC" style="display: none;" value="10">
+                    c:???<input id="scoreC" style="display: none;" value="7">
                     <span class="button__container">
 									<span class="circle top-left"></span>
 									<span class="circle top-left"></span>

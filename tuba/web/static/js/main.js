@@ -84,8 +84,8 @@ function initBt1() {
         bt1c.style.filter = 'url(#filter-goo-1)';
         btTl.restart();
         document.getElementById('jumpFormInput').value = document.getElementById('scoreA').value;
-        window.setTimeout("document.getElementById('jumpForm').submit()", 2000);
-        // window.setTimeout("window.location.href = document.getElementById('jumpAction').value",2000);
+        window.setTimeout("document.getElementById('jumpForm').submit()", 1500);
+        // window.setTimeout("window.location.href = document.getElementById('jumpAction').value",1500);
     });
 }
 
@@ -152,7 +152,7 @@ function initBt2() {
         bt1c.style.filter = 'url(#filter-goo-2)';
         btTl.restart();
         document.getElementById('jumpFormInput').value = document.getElementById('scoreB').value;
-        window.setTimeout("document.getElementById('jumpForm').submit()", 2000);
+        window.setTimeout("document.getElementById('jumpForm').submit()", 1500);
     });
 }
 
@@ -218,7 +218,7 @@ function initBt3() {
         bt1c.style.filter = 'url(#filter-goo-3)';
         btTl.restart();
         document.getElementById('jumpFormInput').value = document.getElementById('scoreC').value;
-        window.setTimeout("document.getElementById('jumpForm').submit()", 2000);
+        window.setTimeout("document.getElementById('jumpForm').submit()", 1500);
     });
 }
 
@@ -285,6 +285,6 @@ function initBt4() {
         bt1c.style.filter = 'url(#filter-goo-4)';
         btTl.restart();
         document.getElementById('jumpFormInput').value = document.getElementById('scoreD').value;
-        window.setTimeout("document.getElementById('jumpForm').submit()", 2000);
+        window.setTimeout("document.getElementById('jumpForm').submit()", 1500);
     });
 }
